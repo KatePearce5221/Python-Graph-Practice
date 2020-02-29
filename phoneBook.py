@@ -37,7 +37,7 @@ def deleteAContact(): # second choice
         del phoneBook[deletedContact] # delete the contact with that key
         print (str(deletedContact) + " has been deleted.")
         startingMenu()
-    else: # if name is not in the phone book
+    else: # if name isnt in the phone book
         print (str(deletedContact) + " is not in your phone book.")
         startingMenu()
 
